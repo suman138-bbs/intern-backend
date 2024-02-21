@@ -3,7 +3,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import userRouter from "./routes/user.route.js";
 
-import internshipRoute from "./routes/internShip.route.js";
+import internshipRoute from "./routes/internship.route.js";
 
 export const app = express();
 
