@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: ["https://get-intern.netlify.app/"],
+    origin: ["https://get-intern.netlify.app/auth/register"],
     credentials: true,
   })
 );
